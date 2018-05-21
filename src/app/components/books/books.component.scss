@@ -1,0 +1,39 @@
+.cards {
+  width: 250px;
+  height: auto;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  //background-color: azure;
+
+}
+
+img {
+  padding: 0 15px;
+  height: auto;
+  border-radius: 10px !important;
+}
+
+mat-card-title {
+font-size: 16px;
+  text-align: center;
+}
+mat-card-content p{
+  text-align: center;
+}
+
+.addButton {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 26px;
+  position: fixed;
+  bottom: 1rem;
+}
+
+//.cards-container{
+//  display: grid;
+//  grid-template-columns: repeat(3,1fr);
+//  grid-template-rows: repeat(3,1fr);
+//
+//}
+
+

@@ -1,0 +1,32 @@
+<h2 mat-dialog-title>Delete all</h2>
+<form  #editBookForm="ngForm"  name="editBookForm" >
+<mat-dialog-content>
+  <div class="example-container">
+
+      <mat-form-field>
+        <input matInput placeholder="Title" [ngModel]="data.book.title" [value]="data.book.title"  name="title">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Author" [ngModel]="data.book.author"   name="author">
+      </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Picture url" [ngModel]="data.book.url"   name="url">
+    </mat-form-field>
+
+      <mat-form-field>
+        <input type="date" matInput placeholder="Date"  [ngModel]="data.book.date | date:'y-MM-dd'"  [value]="data.book.date" name="date"  >
+
+      </mat-form-field>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button  type="submit" mat-raised-button color="primary" mat-dialog-close (click)="onSaveEditedBook(editBookForm.value)">Save</button>
+  <!-- The mat-dialog-close directive optionally accepts a value as a result for the dialog. -->
+  <button mat-raised-button color="warn" [mat-dialog-close]="true" (click)="onCancel()" >Cancel</button>
+</mat-dialog-actions>
+    </form>
+
+
+
+

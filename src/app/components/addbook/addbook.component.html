@@ -1,0 +1,32 @@
+<h2 mat-dialog-title>Add Book</h2>
+<form  #addBookForm="ngForm"  name="editBookForm" >
+  <mat-dialog-content>
+    <div class="example-container">
+
+      <mat-form-field>
+        <input matInput placeholder="Title" ngModel name="title">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Author"  ngModel name="author">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Picture url"  ngModel name="url">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input type="date" matInput placeholder="Date"  ngModel name="date" >
+      </mat-form-field>
+    </div>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button  type="submit" mat-raised-button color="primary" mat-dialog-close (click)="onAdd(addBookForm.value)">Add</button>
+    <!-- The mat-dialog-close directive optionally accepts a value as a result for the dialog. -->
+    <button mat-raised-button color="warn" [mat-dialog-close]="true"  >Cancel</button>
+  </mat-dialog-actions>
+</form>
+
+
+
+
+

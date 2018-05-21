@@ -1,0 +1,81 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Капитал",
+      "author": "Карл Маркс",
+      "date": "2016-09-17",
+      "url": "https://be2.aldebaran.ru/static/bookimages/00/15/71/00157161.bin.dir/00157161.cover_250.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Когда она  ушла",
+      "author": "Блейк Пирс",
+      "date": "2012-07-15",
+      "url": "https://be2.aldebaran.ru/static/bookimages/27/38/52/27385276.bin.dir/27385276.cover_250.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Дневник горничной",
+      "author": "Октав Мирбо",
+      "date": "2000-09-12",
+      "url": "https://be2.aldebaran.ru/static/bookimages/08/91/53/08915385.bin.dir/08915385.cover_250.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Тайна леди Одли",
+      "author": "Мэри Элизабет",
+      "date": "2002-09-15",
+      "url": "https://be2.aldebaran.ru/static/bookimages/33/27/21/33272132.bin.dir/33272132.cover_250.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Анна Каренина",
+      "author": "Лев Толстой",
+      "date": "2018-09-15",
+      "url": "https://be2.aldebaran.ru/static/bookimages/27/86/66/27866685.bin.dir/27866685.cover_250.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Солнечный удар (сборник)",
+      "author": "Иван Бунин",
+      "date": "2016-02-21",
+      "url": "https://be2.aldebaran.ru/static/bookimages/08/29/93/08299345.bin.dir/08299345.cover_250.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Мыло",
+      "author": "Евгений Замятин",
+      "date": "1980-07-22",
+      "url": "https://be2.aldebaran.ru/static/bookimages/30/06/84/30068450.bin.dir/30068450.cover_250.jpg"
+    },
+    {
+      "title": "Анна Каренина",
+      "author": "Лев Толстой",
+      "date": "05/05/2010",
+      "url": "https://be2.aldebaran.ru/static/bookimages/27/86/66/27866685.bin.dir/27866685.cover_250.jpg",
+      "id": "rh5G8lP"
+    },
+    {
+      "title": "Пастельная магия",
+      "author": "Лина Алфеева",
+      "url": "https://be2.aldebaran.ru/static/bookimages/38/72/46/38724631.bin.dir/38724631.cover_250.jpg",
+      "date": "2018-05-14",
+      "id": "KdQAPAd"
+    },
+    {
+      "title": "Тень ингениума",
+      "author": "Алексей Пехов",
+      "url": "https://cv2.litres.ru/static/bookimages/38/11/16/38111622.bin.dir/38111622.cover_415.jpg",
+      "date": "2018-05-27",
+      "id": "bz2mJZ2"
+    },
+    {
+      "title": "Царство мертвых",
+      "author": "Павел Корнев",
+      "url": "https://cv5.litres.ru/static/bookimages/38/09/45/38094551.bin.dir/38094551.cover_415.jpg",
+      "date": "2018-05-21",
+      "id": "IVFOCPV"
+    }
+  ]
+}
