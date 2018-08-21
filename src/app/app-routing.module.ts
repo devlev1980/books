@@ -3,7 +3,7 @@ import {Routes, RouterModule} from '@angular/router';
 import {BooksComponent} from './components/books/books.component';
 import {PageNotFoundComponent} from './components/page-not-found/page-not-found.component';
 import {BookEditComponent} from './components/book-edit/book-edit.component';
-import {BookDetailsComponent} from './components/book-details/book-details.component';
+import {BookDetailsComponent} from './components/books/book-details/book-details.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/books', pathMatch: 'full'},

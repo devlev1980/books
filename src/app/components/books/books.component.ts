@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, Output} from '@angular/core';
 import {ApiService} from '../../api.service';
 import {Book} from '../../models/book';
 import {Router} from '@angular/router';
@@ -13,16 +13,23 @@ import {PassBookService} from '../../pass-book.service';
   styleUrls: ['./books.component.scss']
 })
 export class BooksComponent implements OnInit {
-  books = [];
+  books: Book[];
+  @Output() book: Book;
 
 
-  constructor(private _api: ApiService, private _route: Router, private dialog: MatDialog,private bookService: PassBookService) {
+  constructor(private _api: ApiService,
+              private _route: Router,
+              private dialog: MatDialog,
+              private bookService: PassBookService) {
   }
 
   ngOnInit(): void {
     this._api.getBooks().subscribe((res: any) => {
-      console.log(res);
-      this.books = res;
+      if (res) {
+        this.books = res.books;
+      } else {
+        console.log('error');
+      }
     });
   }
 
@@ -58,7 +65,6 @@ export class BooksComponent implements OnInit {
 
   onDeleteBook(id) {
     console.log(id);
-    // let delBook = this.books[id].id;
     this._api.deleteBook(id).subscribe(res => {
       console.log('Book was deleted');
       this.ngOnInit();
@@ -71,9 +77,6 @@ export class BooksComponent implements OnInit {
     this._route.navigate([`/details/${book.id}`]);
 
   }
-
-
-
 
 
 }

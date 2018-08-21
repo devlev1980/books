@@ -13,7 +13,7 @@ import {PageNotFoundComponent} from './components/page-not-found/page-not-found.
 import {HttpClientModule} from '@angular/common/http';
 import {ApiService} from './api.service';
 import {FlexLayoutModule} from '@angular/flex-layout';
-import {BookDetailsComponent} from './components/book-details/book-details.component';
+import {BookDetailsComponent} from './components/books/book-details/book-details.component';
 import {BookEditComponent} from './components/book-edit/book-edit.component';
 import {MatDialog, MatDialogRef} from '@angular/material/dialog';
 import {MatDialogModule} from '@angular/material/dialog';
